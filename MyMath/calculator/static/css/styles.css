@@ -1,0 +1,15 @@
+#body
+{
+    font-family: sans-serif;
+    letter-spacing: 0.5 px;
+    color: light-black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: light-orange;
+}
+
+#logo
+{
+    font-size: 100px;
+}
