@@ -6,3 +6,5 @@ def logo(request):
     return HttpResponse("Calculator")
 
 
+def add(reuest,a, b):
+    return HttpResponse(sum(a, b))
