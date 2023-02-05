@@ -6,9 +6,18 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="calculator/static/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
 </head>
 <body>
     <div id="logo">Calculator</div>
+        <div class="info" style="color: #4C0099">In order to use calculator, please provide specific URL pattern with two numbers:</div>
+        <div class="info">Sum numbers: /calculator/add/number/number/</div>
+        <div class="info">Subtract numbers: /calculator/subtract/number/number/</div>
+        <div class="info">Multiply numbers: /calculator/multiply/number/number/</div>
+        <div class="info">Divide numbers: /calculator/divide/number/number/</div>
+        <div class="info" style="color: #4C0099; font-size: 20px;">
+            *** Please note that "number" have to be specific integer choosed by you ***
+        </div>
+
 </body>
 </html>

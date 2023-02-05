@@ -1,15 +1,27 @@
-#body
+body
 {
     font-family: sans-serif;
-    letter-spacing: 0.5 px;
-    color: light-black;
+    letter-spacing: 0.5px;
+    color: #333;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
-    background-color: light-orange;
+    background-color: #FFA07A;
 }
 
 #logo
 {
+    font-weight: bold;
     font-size: 100px;
+    border-style: solid;
+    border-color: #333;
 }
+
+.info
+{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    text-shadow: 5px, #333;
+}
+
